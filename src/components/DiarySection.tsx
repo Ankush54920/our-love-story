@@ -7,17 +7,25 @@ const DiarySection = () => {
       className="cinematic-bg relative px-4 py-24 sm:px-6 md:py-32"
       style={{
         background:
-          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(348 14% 7%) 15%, hsl(350 12% 6%) 50%, hsl(348 14% 7%) 85%, hsl(0 0% 3%))",
+          "linear-gradient(to bottom, hsl(0 0% 2%), hsl(348 16% 7%) 15%, hsl(350 14% 6%) 50%, hsl(348 16% 7%) 85%, hsl(0 0% 2%))",
       }}
     >
-      {/* Ambient glow orbs */}
+      {/* Background atmosphere layers — all behind content */}
+      <div className="cinematic-radial" />
+      <div className="cinematic-vignette" />
       <div className="ambient-glow">
         <div className="orb" />
         <div className="orb" />
         <div className="orb" />
       </div>
-      {/* Noise texture */}
+      <div className="section-hearts">
+        {Array.from({ length: 12 }).map((_, i) => (
+          <span key={i} className="h" />
+        ))}
+      </div>
       <div className="noise-texture" />
+
+      {/* Content */}
       <div className="mx-auto max-w-3xl">
         <h2 className="font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:text-5xl">
           My Diary For You
