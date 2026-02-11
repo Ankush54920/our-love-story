@@ -183,95 +183,30 @@
 /* ─── Cinematic Section Atmosphere ─── */
 .cinematic-bg {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
 }
 
-.cinematic-bg::before {
-  content: '';
+/* Radial gradient layer */
+.cinematic-radial {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 50%, hsl(350 60% 12% / 0.25) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 80% at 20% 30%, hsl(345 50% 10% / 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 80% at 80% 70%, hsl(350 55% 8% / 0.15) 0%, transparent 60%);
-  z-index: 0;
+  z-index: -4;
   pointer-events: none;
+  background:
+    radial-gradient(ellipse 90% 70% at 50% 45%, hsl(350 55% 14% / 0.4) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 60% at 15% 25%, hsl(345 50% 12% / 0.25) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 60% at 85% 75%, hsl(350 60% 10% / 0.25) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, hsl(348 65% 18% / 0.2) 0%, transparent 50%);
 }
 
 /* Vignette overlay */
-.cinematic-bg::after {
-  content: '';
+.cinematic-vignette {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 70% 60% at 50% 50%, transparent 40%, hsl(0 0% 2% / 0.6) 100%);
-  z-index: 0;
+  z-index: -3;
   pointer-events: none;
-}
-
-.cinematic-bg > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* Ambient glow orb — slow animated */
-.ambient-glow {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.ambient-glow .orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.12;
-  animation: orbDrift 20s ease-in-out infinite alternate;
-}
-
-.ambient-glow .orb:nth-child(1) {
-  width: 500px;
-  height: 500px;
-  top: 20%;
-  left: 30%;
-  background: hsl(350 65% 25%);
-  animation-duration: 22s;
-}
-
-.ambient-glow .orb:nth-child(2) {
-  width: 350px;
-  height: 350px;
-  bottom: 15%;
-  right: 20%;
-  background: hsl(345 55% 20%);
-  animation-duration: 18s;
-  animation-delay: -5s;
-}
-
-.ambient-glow .orb:nth-child(3) {
-  width: 250px;
-  height: 250px;
-  top: 60%;
-  left: 10%;
-  background: hsl(355 50% 18%);
-  animation-duration: 25s;
-  animation-delay: -10s;
-}
-
-@keyframes orbDrift {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-  33% {
-    transform: translate(30px, -20px) scale(1.08);
-  }
-  66% {
-    transform: translate(-20px, 15px) scale(0.95);
-  }
-  100% {
-    transform: translate(10px, -10px) scale(1.03);
-  }
+  background: radial-gradient(ellipse 65% 55% at 50% 50%, transparent 35%, hsl(0 0% 1% / 0.7) 100%);
 }
 
 /* CSS noise texture overlay */
@@ -279,11 +214,110 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 0;
-  opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  z-index: -1;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 200px 200px;
+}
+
+/* Ambient glow orbs — slow animated */
+.ambient-glow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.ambient-glow .orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  animation: orbDrift 20s ease-in-out infinite alternate;
+}
+
+.ambient-glow .orb:nth-child(1) {
+  width: 600px;
+  height: 600px;
+  top: 15%;
+  left: 25%;
+  background: hsl(350 70% 22%);
+  opacity: 0.18;
+  animation-duration: 24s;
+}
+
+.ambient-glow .orb:nth-child(2) {
+  width: 450px;
+  height: 450px;
+  bottom: 10%;
+  right: 15%;
+  background: hsl(345 60% 18%);
+  opacity: 0.14;
+  animation-duration: 20s;
+  animation-delay: -6s;
+}
+
+.ambient-glow .orb:nth-child(3) {
+  width: 300px;
+  height: 300px;
+  top: 55%;
+  left: 5%;
+  background: hsl(355 55% 16%);
+  opacity: 0.1;
+  animation-duration: 28s;
+  animation-delay: -12s;
+}
+
+@keyframes orbDrift {
+  0% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(40px, -25px) scale(1.1); }
+  50% { transform: translate(-15px, 30px) scale(0.93); }
+  75% { transform: translate(25px, 10px) scale(1.06); }
+  100% { transform: translate(-20px, -15px) scale(1.02); }
+}
+
+/* Section floating hearts */
+.section-hearts {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.section-hearts .h {
+  position: absolute;
+  bottom: -5%;
+  opacity: 0;
+  animation: sectionHeartFloat linear infinite;
+}
+
+.section-hearts .h::before {
+  content: '♥';
+  color: hsl(350 65% 45% / 0.1);
+  font-size: inherit;
+}
+
+.section-hearts .h:nth-child(1)  { left: 3%;  font-size: 14px; animation-duration: 18s; animation-delay: 0s; }
+.section-hearts .h:nth-child(2)  { left: 12%; font-size: 10px; animation-duration: 22s; animation-delay: 3s; }
+.section-hearts .h:nth-child(3)  { left: 22%; font-size: 18px; animation-duration: 16s; animation-delay: 1s; }
+.section-hearts .h:nth-child(4)  { left: 33%; font-size: 8px;  animation-duration: 25s; animation-delay: 5s; }
+.section-hearts .h:nth-child(5)  { left: 42%; font-size: 12px; animation-duration: 19s; animation-delay: 2s; }
+.section-hearts .h:nth-child(6)  { left: 53%; font-size: 16px; animation-duration: 21s; animation-delay: 4s; }
+.section-hearts .h:nth-child(7)  { left: 63%; font-size: 9px;  animation-duration: 24s; animation-delay: 1.5s; }
+.section-hearts .h:nth-child(8)  { left: 72%; font-size: 20px; animation-duration: 17s; animation-delay: 6s; }
+.section-hearts .h:nth-child(9)  { left: 82%; font-size: 11px; animation-duration: 23s; animation-delay: 3.5s; }
+.section-hearts .h:nth-child(10) { left: 91%; font-size: 15px; animation-duration: 20s; animation-delay: 0.5s; }
+.section-hearts .h:nth-child(11) { left: 7%;  font-size: 13px; animation-duration: 26s; animation-delay: 7s; }
+.section-hearts .h:nth-child(12) { left: 48%; font-size: 7px;  animation-duration: 28s; animation-delay: 8s; }
+
+@keyframes sectionHeartFloat {
+  0%   { transform: translateY(0) translateX(0) scale(0.7); opacity: 0; }
+  8%   { opacity: 0.6; }
+  50%  { opacity: 0.8; }
+  85%  { opacity: 0.4; }
+  100% { transform: translateY(-110vh) translateX(30px) scale(1.1); opacity: 0; }
 }
 
 /* ─── Card glow hover ─── */

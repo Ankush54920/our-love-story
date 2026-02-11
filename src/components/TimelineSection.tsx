@@ -7,17 +7,25 @@ const TimelineSection = () => {
       className="cinematic-bg relative px-4 py-24 sm:px-6 md:py-32"
       style={{
         background:
-          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(350 15% 6%) 10%, hsl(350 12% 5%) 50%, hsl(350 15% 6%) 90%, hsl(0 0% 3%))",
+          "linear-gradient(to bottom, hsl(0 0% 2%), hsl(350 18% 7%) 10%, hsl(350 15% 6%) 50%, hsl(350 18% 7%) 90%, hsl(0 0% 2%))",
       }}
     >
-      {/* Ambient glow orbs */}
+      {/* Background atmosphere layers — all behind content */}
+      <div className="cinematic-radial" />
+      <div className="cinematic-vignette" />
       <div className="ambient-glow">
         <div className="orb" />
         <div className="orb" />
         <div className="orb" />
       </div>
-      {/* Noise texture */}
+      <div className="section-hearts">
+        {Array.from({ length: 12 }).map((_, i) => (
+          <span key={i} className="h" />
+        ))}
+      </div>
       <div className="noise-texture" />
+
+      {/* Content */}
       <div className="mx-auto max-w-5xl">
         <h2 className="font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:mb-24 md:text-5xl">
           Our Memories
@@ -61,7 +69,6 @@ const TimelineSection = () => {
                           />
                         ) : (
                           <div className="flex h-full w-full items-center justify-center text-muted-foreground/40 text-sm">
-                            {/* placeholder — add image URL in memories.ts */}
                             📷 Photo Placeholder
                           </div>
                         )}
