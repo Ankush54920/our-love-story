@@ -4,12 +4,20 @@ const TimelineSection = () => {
   return (
     <section
       id="timeline"
-      className="relative px-4 py-24 sm:px-6 md:py-32"
+      className="cinematic-bg relative px-4 py-24 sm:px-6 md:py-32"
       style={{
         background:
-          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(0 0% 5%) 10%, hsl(0 0% 5%) 90%, hsl(0 0% 4%))",
+          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(350 15% 6%) 10%, hsl(350 12% 5%) 50%, hsl(350 15% 6%) 90%, hsl(0 0% 3%))",
       }}
     >
+      {/* Ambient glow orbs */}
+      <div className="ambient-glow">
+        <div className="orb" />
+        <div className="orb" />
+        <div className="orb" />
+      </div>
+      {/* Noise texture */}
+      <div className="noise-texture" />
       <div className="mx-auto max-w-5xl">
         <h2 className="font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:mb-24 md:text-5xl">
           Our Memories

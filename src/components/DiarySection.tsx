@@ -4,12 +4,20 @@ const DiarySection = () => {
   return (
     <section
       id="diary"
-      className="relative px-4 py-24 sm:px-6 md:py-32"
+      className="cinematic-bg relative px-4 py-24 sm:px-6 md:py-32"
       style={{
         background:
-          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(0 0% 6%) 15%, hsl(0 0% 6%) 85%, hsl(0 0% 3%))",
+          "linear-gradient(to bottom, hsl(0 0% 3%), hsl(348 14% 7%) 15%, hsl(350 12% 6%) 50%, hsl(348 14% 7%) 85%, hsl(0 0% 3%))",
       }}
     >
+      {/* Ambient glow orbs */}
+      <div className="ambient-glow">
+        <div className="orb" />
+        <div className="orb" />
+        <div className="orb" />
+      </div>
+      {/* Noise texture */}
+      <div className="noise-texture" />
       <div className="mx-auto max-w-3xl">
         <h2 className="font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:text-5xl">
           My Diary For You
