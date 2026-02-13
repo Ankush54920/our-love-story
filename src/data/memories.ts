@@ -52,7 +52,7 @@ I was Hungry till evening, just to taste the Noodles made for me with love,Aur N
 
 { id: 24, title: "14th December", paragraph: "We Went to The Park for 2nd time , We ate the Dinner together at the Mess for 2nd time ☺️" },
 
-{ id: 25, title: `16th December", paragraph: `Sath me Potato twisters khaye, Chowmin, Pani Puri, Ice Cream 😌😉.
+{ id: 25, title: "16th December", paragraph: `Sath me Potato twisters khaye, Chowmin, Pani Puri, Ice Cream 😌😉.
 Ha toh tum yaha tk read ki ho, Agar kuch km ya incomplete lage toh hum call pe hi hai, puch lo.` },
 
 { id: 26, title: "18th December:- We didn’t knew the future. But we chose each other", paragraph: `Our 1st Kiss:- 6:26 pm 
