@@ -16,7 +16,6 @@ const HeroSection = ({ onBeginStory }: HeroSectionProps) => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const handleClick = () => {
-    // Trigger audio playback (will work once you add a real audio file)
     if (audioRef.current) {
       audioRef.current.play().catch(() => {});
     }
@@ -26,12 +25,27 @@ const HeroSection = ({ onBeginStory }: HeroSectionProps) => {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6"
+      className="cinematic-bg relative flex min-h-screen flex-col items-center justify-center px-6"
       style={{
         background:
           "radial-gradient(ellipse at center bottom, hsl(350 70% 15% / 0.6) 0%, hsl(0 0% 3%) 70%)",
       }}
     >
+      {/* Background atmosphere layers */}
+      <div className="cinematic-radial" />
+      <div className="cinematic-vignette" />
+      <div className="ambient-glow">
+        <div className="orb" />
+        <div className="orb" />
+        <div className="orb" />
+      </div>
+      <div className="section-hearts">
+        {Array.from({ length: 12 }).map((_, i) => (
+          <span key={i} className="h" />
+        ))}
+      </div>
+      <div className="noise-texture" />
+
       <FloatingHearts />
 
       <div className="relative z-10 max-w-3xl text-center">
