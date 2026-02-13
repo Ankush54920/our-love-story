@@ -13,15 +13,11 @@ const Index = () => {
   };
 
   return (
-    <main className="page-vignette overflow-x-hidden">
+    <main className="overflow-x-hidden">
       <HeroSection onBeginStory={handleBeginStory} />
-      <div className="section-fade-bridge" />
       <TimelineSection />
-      <div className="section-fade-bridge" />
       <TransitionSection />
-      <div className="section-fade-bridge" />
       <DiarySection />
-      <div className="section-fade-bridge" />
       <FinalSection />
     </main>
   );

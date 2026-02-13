@@ -34,7 +34,6 @@ const HeroSection = ({ onBeginStory }: HeroSectionProps) => {
       {/* Background atmosphere layers */}
       <div className="cinematic-radial" />
       <div className="cinematic-vignette" />
-      <div className="cinematic-spotlight" />
       <div className="ambient-glow">
         <div className="orb" />
         <div className="orb" />
@@ -51,7 +50,7 @@ const HeroSection = ({ onBeginStory }: HeroSectionProps) => {
 
       <div className="relative z-10 max-w-3xl text-center">
         {/* ✏️ REPLACE: Your headline */}
-        <h1 className="heading-glow-backdrop font-display tracking-cinematic text-glow mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
+        <h1 className="font-display tracking-cinematic text-glow mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
           A Love Beyond<br />Distance
         </h1>
 
