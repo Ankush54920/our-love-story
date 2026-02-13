@@ -31,9 +31,23 @@ const FinalSection = () => {
         <p className="font-body text-glow-subtle text-lg text-foreground/50 sm:text-xl">
           And every test we pass makes us more unbreakable than before.
         </p>
+
+</p>
+
+<p className="mt-6 text-lg text-foreground/70 sm:text-xl">
+  One day, there will be no goodbyes.<br />
+  No countdowns.<br />
+  Just you — beside me.
+</p>
+
       </div>
 
       <div className="relative z-10 mt-12 text-sm tracking-widest text-foreground/20">
+
+<p className="mt-10 text-xl font-medium tracking-wide text-primary">
+  Until then — I choose you.
+</p>
+
         ♥
       </div>
     </section>
