@@ -67,5 +67,5 @@ Scooty Ride,Ganesh ji temple, Kachori,Mr Bean,And then Those Moments 🤌.  },
 { id: 28, title: "20th December:-It was never easy to leave", paragraph: 'Morning Walk, Chai,Park,Mandir,30 nov ko apni friend ko jhulaye the, 20 Dec ko Abhi Bandi ko. 
 Kala Dhaga, Necklace, Basketball court, and then a good bye.
 but came to know That Good bye wasn't finally, Bcz someone prepared something very Special fro me.
-I don't know how to end, Hum call pe hi hai, Pucho lo`}
+I don't know how to end, Hum call pe hi hai, Pucho lo`},
 ];
