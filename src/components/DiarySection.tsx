@@ -57,7 +57,7 @@ const DiarySection = () => {
               <h3 className="font-display text-glow-subtle mb-3 text-xl font-semibold tracking-wide sm:text-2xl">
                 {entry.title}
               </h3>
-              <p className="font-body text-base leading-relaxed text-foreground/65 sm:text-lg">
+              <p className="font-body text-base leading-relaxed text-foreground/65 sm:text-lg whitespace-pre-line">
                 {entry.paragraph}
               </p>
             </div>
