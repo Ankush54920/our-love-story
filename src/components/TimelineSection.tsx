@@ -10,20 +10,7 @@ const TimelineSection = () => {
           "linear-gradient(to bottom, hsl(0 0% 2%), hsl(350 18% 7%) 10%, hsl(350 15% 6%) 50%, hsl(350 18% 7%) 90%, hsl(0 0% 2%))",
       }}
     >
-      {/* Background atmosphere layers — all behind content */}
-      <div className="cinematic-radial" />
-      <div className="cinematic-vignette" />
-      <div className="ambient-glow">
-        <div className="orb" />
-        <div className="orb" />
-        <div className="orb" />
-      </div>
-      <div className="section-hearts">
-        {Array.from({ length: 12 }).map((_, i) => (
-          <span key={i} className="h" />
-        ))}
-      </div>
-      <div className="noise-texture" />
+      
 
       {/* Content */}
       <div className="mx-auto max-w-5xl">
