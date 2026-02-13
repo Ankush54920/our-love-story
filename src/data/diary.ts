@@ -8,9 +8,10 @@ export interface DiaryEntry {
 
 export const diaryEntries: DiaryEntry[] = [
   { id: 1, title: "Page One — The Beginning", paragraph: "I didn't know what love felt like until I heard your voice for the first time. It was quiet, almost fragile — but it shattered everything I thought I knew.",imageUrl: "/images/image1.jpg"},
-  { id: 2, title: "Page Two — Missing You", paragraph: "There are nights when the silence is so loud, I swear I can hear your heartbeat from across the ocean. I hold my pillow and pretend it's you.",imageUrl: "/images/image2.jpg" },
-  { id: 3, title: "Page Three — Your Words", paragraph: "You texted me 'goodnight' at 3 AM your time. That's when I knew — you'd sacrifice sleep just to make sure I felt loved before I closed my eyes.",imageUrl: "/images/image3.jpg" },
-  { id: 4, title: "Page Four — Small Things", paragraph: "It's the little things. The way you say my name. The playlist you update every week. The photos you send of your sky so I can see what you see.", imageUrl: "/images/image4.jpg" },
-  { id: 5, title: "Page Five — The Hard Truth", paragraph: "Distance doesn't destroy love. It tests it. And every test we pass makes us more unbreakable than before.", imageUrl: "/images/image5.jpg" },
-  { id: 6, title: "Page Six — A Promise", paragraph: "One day there will be no goodbye at the airport. One day, I'll wake up and you'll be right there. Until then — I'll love you across every mile.",imageUrl: "/images/image6.jpg" },
+  { id: 2, title: "Page Two — Care for each other", paragraph: "There are nights when the silence is so loud, I swear I can hear your heartbeat from across the ocean. I hold my pillow and pretend it's you.",imageUrl: "/images/image2.jpg" },
+  { id: 3, title: "Page Three — You", paragraph: 'Some of the 1st Phots of yours that I clicked.
+Then some photos of You Eating Together with me, that Didn't felt like Dream ( But Definitely Dream come true)',imageUrl: "/images/image3.jpg" },
+  { id: 4, title: "Page Four — Us( You and Me)", paragraph: `Its Me and Mari Band, Dekh lg rahi hai na, Jase Apsara Ya Pari 😌.`, imageUrl: "/images/image4.jpg" },
+  { id: 5, title: "Page Five — The Hard Truth", paragraph: ".  ", imageUrl: "/images/image5.jpg" },
+  { id: 6, title: "Page Six — Tu hi Tu 🫣", paragraph: `  . `,imageUrl: "/images/image6.jpg" },
 ];
