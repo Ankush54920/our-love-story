@@ -32,8 +32,6 @@ const FinalSection = () => {
           And every test we pass makes us more unbreakable than before.
         </p>
 
-</p>
-
 <p className="mt-6 text-lg text-foreground/70 sm:text-xl">
   One day, there will be no goodbyes.<br />
   No countdowns.<br />
