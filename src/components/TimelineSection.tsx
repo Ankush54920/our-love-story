@@ -46,20 +46,7 @@ const TimelineSection = () => {
 
                     <div className="card-glow rounded-xl border border-border bg-card p-5 sm:p-6">
                       {/* ✏️ REPLACE: Add your image URL to each memory in src/data/memories.ts */}
-                      <div className="mb-4 aspect-video w-full overflow-hidden rounded-lg bg-muted">
-                        {memory.imageUrl ? (
-                          <img
-                            src={memory.imageUrl}
-                            alt={memory.title}
-                            className="h-full w-full object-cover"
-                            loading="lazy"
-                          />
-                        ) : (
-                          <div className="flex h-full w-full items-center justify-center text-muted-foreground/40 text-sm">
-                            📷 Photo Placeholder
-                          </div>
-                        )}
-                      </div>
+                      
 
                       <h3 className="font-display text-glow-subtle mb-2 text-xl font-semibold tracking-wide sm:text-2xl">
                         {memory.title}
