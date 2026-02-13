@@ -12,5 +12,5 @@ export const diaryEntries: DiaryEntry[] = [
   { id: 3, title: "Page Three — Your Words", paragraph: "You texted me 'goodnight' at 3 AM your time. That's when I knew — you'd sacrifice sleep just to make sure I felt loved before I closed my eyes.",imageUrl: "/images/image3.jpg" },
   { id: 4, title: "Page Four — Small Things", paragraph: "It's the little things. The way you say my name. The playlist you update every week. The photos you send of your sky so I can see what you see.", imageUrl: "/images/image4.jpg" },
   { id: 5, title: "Page Five — The Hard Truth", paragraph: "Distance doesn't destroy love. It tests it. And every test we pass makes us more unbreakable than before.", imageUrl: "/images/image5.jpg" },
-  { id: 6, title: "Page Six — A Promise", paragraph: "One day there will be no goodbye at the airport. One day, I'll wake up and you'll be right there. Until then — I'll love you across every mile.",imageUrl: "/images/images.jpg" },
+  { id: 6, title: "Page Six — A Promise", paragraph: "One day there will be no goodbye at the airport. One day, I'll wake up and you'll be right there. Until then — I'll love you across every mile.",imageUrl: "/images/image6.jpg" },
 ];
