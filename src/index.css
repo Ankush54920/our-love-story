@@ -442,3 +442,19 @@
 .btn-glow:hover {
   box-shadow: 0 0 25px hsl(350 70% 45% / 0.3);
 }
+/* ---- Safe Cinematic Depth Enhancement ---- */
+
+.section {
+  background:
+    radial-gradient(circle at center, rgba(120, 0, 0, 0.25), #000 70%);
+}
+
+.memory-card, .diary-card {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.memory-card:hover, .diary-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.75);
+}
