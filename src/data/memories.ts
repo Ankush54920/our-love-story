@@ -3,7 +3,7 @@ export interface Memory {
   id: number;
   title: string;
   paragraph: string;
-  imageUrl?: string; // leave empty to show placeholder box
+ // leave empty to show placeholder box
 }
 
 export const memories: Memory[] = [
