@@ -322,14 +322,19 @@
 
 /* ─── Card glow hover ─── */
 .card-glow {
+  background: hsl(0 0% 10%);
+  box-shadow:
+    0 8px 30px hsl(0 0% 0% / 0.5),
+    0 0 18px hsl(350 60% 30% / 0.08);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .card-glow:hover {
   transform: translateY(-6px);
   box-shadow:
-    0 12px 40px hsl(350 70% 45% / 0.2),
-    0 0 20px hsl(350 70% 45% / 0.1);
+    0 16px 50px hsl(0 0% 0% / 0.6),
+    0 0 30px hsl(350 65% 40% / 0.15),
+    0 0 60px hsl(350 60% 35% / 0.06);
 }
 
 /* ─── Timeline line ─── */
@@ -358,12 +363,13 @@
 /* ─── Diary stacked pages ─── */
 .diary-page {
   position: relative;
-  background: hsl(0 0% 8%);
-  border: 1px solid hsl(0 0% 15%);
+  background: hsl(0 0% 10%);
+  border: 1px solid hsl(0 0% 16%);
   border-radius: 12px;
   box-shadow:
-    0 4px 20px hsl(0 0% 0% / 0.4),
-    0 0 15px hsl(350 70% 45% / 0.05);
+    0 8px 30px hsl(0 0% 0% / 0.55),
+    0 0 20px hsl(350 60% 30% / 0.08),
+    0 0 50px hsl(350 55% 25% / 0.04);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -390,8 +396,9 @@
 .diary-page:hover {
   transform: translateY(-8px) rotate(0.5deg);
   box-shadow:
-    0 16px 50px hsl(0 0% 0% / 0.5),
-    0 0 30px hsl(350 70% 45% / 0.1);
+    0 20px 60px hsl(0 0% 0% / 0.65),
+    0 0 35px hsl(350 65% 40% / 0.14),
+    0 0 70px hsl(350 55% 30% / 0.06);
 }
 
 /* ─── Button glow ─── */
