@@ -23,10 +23,11 @@ paragraph: "The Day that I still think was a Dream (Or Dream come true) Wase 2.5
   { id: 13, title: "During Diwali break", paragraph: "I thought of the Nazm 'Woh' I didn't knew who that was, But I guess I wished that to be You" },
   { id: 14, title: "30th October:- Our 1st call ", paragraph: "The Day I meet most Baatuni Bacha 🫵,I don't know why but somehow I like it." },
   { id: 15, title: "31st October:- Your 1st message", paragraph: "Point from where Love magic was mistaken as Black Magic, ku ki hum soche hi rahe the ki tum whatsapp pe nhi ho, Can't message you, Aur hum ab call toh kya hi karenge." },
-  { id: 16, title: `November 1-20", paragraph: "We talked (80:20),Aur You talk, I lesson, I sleep you still talk.Baat toh that Mere ko Subha uthane ka 🫣
+
+  { id: 16, title: "November 1-20", paragraph: `We talked (80:20),Aur You talk, I lesson, I sleep you still talk.Baat toh that Mere ko Subha uthane ka 🫣
 koi toh subha tk utha deti thi 😉
 But jokes apart, Apan itna baat Kiya, Jitna hum pure saal me kisis se uthna baat nhi kiyehonge.
-We Knew eachother ` },
+We Knew eachother properly. ` },
   { id: 17, title: "19-21st November", paragraph: `19:- I meet the most beautiful delivery Girl ever,
 20:- I slept, Aayu Woke up, Aayu Sad, someone calmed him.( and said Jo hota hai Ache ke liye hota hai)
 21:- Bahar nikle, Ek sundar si ladki aai, Khane ka di aur Chali gai.Aayu chor Aayush bhi Khush hua,  `},
@@ -47,15 +48,24 @@ I was Hungry till evening, just to taste the Noodles made for me with love,Aur N
 12:- 1st time Sath me Mess me khaye the. 
 17:- I wrote something...... Then Below Partner I wrote (A) and Obviously By (A) I mean Aayush, Haaiii na 😏`},
 
-{ id: 23, title: "13th December", paragraph: "It was small. But it felt like care." },
+{ id: 23, title: "13th December", paragraph: "The Day You Trusted me." },
 
-{ id: 24, title: "14th December", paragraph: "We didn’t talk much. Just stayed connected." },
+{ id: 24, title: "14th December", paragraph: "We Went to The Park for 2nd time , We ate the Dinner together at the Mess for 2nd time ☺️" },
 
-{ id: 25, title: "16th December", paragraph: "It slipped out naturally. And meant everything." },
+{ id: 25, title: `16th December", paragraph: `Sath me Potato twisters khaye, Chowmin, Pani Puri, Ice Cream 😌😉.
+Ha toh tum yaha tk read ki ho, Agar kuch km ya incomplete lage toh hum call pe hi hai, puch lo.` },
 
-{ id: 26, title: "18th December", paragraph: "You said something simple. I replayed it all day." },
+{ id: 26, title: "18th December:- We didn’t knew the future. But we chose each other", paragraph: `Our 1st Kiss:- 6:26 pm 
+Confession:- 7:26 pm
+Aur Fir kya hi Bole 18th ke bare me🫣,
+All that Fun, Late night RUN 🏃‍♂️🤝🏃‍♀️
+Fir to save my Bladder Run 🏃‍♂️🏃‍♂️💨` },
 
-{ id: 27, title: "19th December", paragraph: "We didn’t know the future. But we chose each other." },
+{ id: 27, title: "19th December", paragraph: `A full Day With MY Bandi.
+Scooty Ride,Ganesh ji temple, Kachori,Mr Bean,And then Those Moments 🤌.  },
 
-{ id: 28, title: "20th December", paragraph: "Every single day." }
+{ id: 28, title: "20th December:-It was never easy to leave", paragraph: 'Morning Walk, Chai,Park,Mandir,30 nov ko apni friend ko jhulaye the, 20 Dec ko Abhi Bandi ko. 
+Kala Dhaga, Necklace, Basketball court, and then a good bye.
+but came to know That Good bye wasn't finally, Bcz someone prepared something very Special fro me.
+I don't know how to end, Hum call pe hi hai, Pucho lo`}
 ];
