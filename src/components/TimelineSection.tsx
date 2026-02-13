@@ -13,6 +13,7 @@ const TimelineSection = () => {
       {/* Background atmosphere layers — all behind content */}
       <div className="cinematic-radial" />
       <div className="cinematic-vignette" />
+      <div className="cinematic-spotlight" />
       <div className="ambient-glow">
         <div className="orb" />
         <div className="orb" />
@@ -27,7 +28,7 @@ const TimelineSection = () => {
 
       {/* Content */}
       <div className="mx-auto max-w-5xl">
-        <h2 className="font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:mb-24 md:text-5xl">
+        <h2 className="heading-glow-backdrop font-display tracking-cinematic text-glow reveal mb-16 text-center text-3xl font-semibold sm:text-4xl md:mb-24 md:text-5xl">
           Our Memories
         </h2>
 
