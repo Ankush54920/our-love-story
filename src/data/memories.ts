@@ -20,20 +20,32 @@ paragraph: "The Day that I still think was a Dream (Or Dream come true) Wase 2.5
   { id: 10, title: "10th October", paragraph: "Still Calling it A LUCKY Day. When I stood on my quote. 'If you don't like your destiny don't accept it, Instead have the courage to change it the way you want it to be'." },
   { id: 11, title: "11th October", paragraph: "Someone Said Party in the class, Someone Ordered for the party, and see that 2 someone, became Everyone of eachother. And The 1st photo of us together 😅." },
   { id: 12, title: "14th October:-A GoodBye", paragraph: "Uss din 8:30 tk tumhe kisis ne khane ke liye call nahi kiye, You were free but Mera toh literally train choot raha tha. " },
-  { id: 13, title: "During Diwali break", paragraph: "Some days the distance felt impossible. But we held on — because letting go was never an option." },
-  { id: 14, title: "30th October:- Our 1st call ", paragraph: "A package at the door with your scent, your words, your love. Distance couldn't stop your warmth from reaching me." },
-  { id: 15, title: "31st October:- Your 1st message", paragraph: "We celebrated with screens between us, but the love was more real than anything physical could ever be." },
-  { id: 16, title: "November 1-20", paragraph: "We drew our future on napkins and whispered it into late nights — a home, a life, together at last." },
-  { id: 17, title: "21st November", paragraph: "Not a ring, not a ceremony — just a quiet promise in the dark: 'I will find my way to you.'" },
-  { id: 18, title: "30th November", paragraph: "This isn't the end of our story. It's the beginning of the chapter we write side by side." },
+  { id: 13, title: "During Diwali break", paragraph: "I thought of the Nazm 'Woh' I didn't knew who that was, But I guess I wished that to be You" },
+  { id: 14, title: "30th October:- Our 1st call ", paragraph: "The Day I meet most Baatuni Bacha 🫵,I don't know why but somehow I like it." },
+  { id: 15, title: "31st October:- Your 1st message", paragraph: "Point from where Love magic was mistaken as Black Magic, ku ki hum soche hi rahe the ki tum whatsapp pe nhi ho, Can't message you, Aur hum ab call toh kya hi karenge." },
+  { id: 16, title: `November 1-20", paragraph: "We talked (80:20),Aur You talk, I lesson, I sleep you still talk.Baat toh that Mere ko Subha uthane ka 🫣
+koi toh subha tk utha deti thi 😉
+But jokes apart, Apan itna baat Kiya, Jitna hum pure saal me kisis se uthna baat nhi kiyehonge.
+We Knew eachother ` },
+  { id: 17, title: "19-21st November", paragraph: `19:- I meet the most beautiful delivery Girl ever,
+20:- I slept, Aayu Woke up, Aayu Sad, someone calmed him.( and said Jo hota hai Ache ke liye hota hai)
+21:- Bahar nikle, Ek sundar si ladki aai, Khane ka di aur Chali gai.Aayu chor Aayush bhi Khush hua,  `},
+  { id: 18, title: "30th November:- Our 1st Photo Together", paragraph: `First time we played together.
+Your friends out, You free, I asked you agreed
+I gave you the peacock feathers, Flower.
+I was Hungry till evening, just to taste the Noodles made for me with love,Aur Noodles Ache the, Hum Tereko cherne ke liye aase kehte hai.` },
 
-{ id: 19, title: "1st December", paragraph: "We laughed at something no one else would understand." },
+{ id: 19, title: "1st December", paragraph: "We again planned, you brought your laptop, Sath Photo dekhe, ( Karib se tumhe dekhe 🫣) ." },
 
-{ id: 20, title: "3st December", paragraph: "We said goodnight at 1 AM. Ended at 4:12 AM." },
+{ id: 20, title: "3st December", paragraph: "Mera Bacha Mandir nhi aaya, Bacha ka tabiyat bhi theek nhi lg raha tha, Bacha sad tha, So I Gave my Favourite flowes to My Forever Favourite Person (My JULIE) " },
 
-{ id: 21, title: "10-11th December", paragraph: "We were stubborn. But we didn’t leave." },
+{ id: 21, title: "10-11th December", paragraph: `Hum nashe me the, But still I remembered you told on 9th ki 10th se hr roz milenge, thore der kiliye bhi but milenge.
+10:- we Planned to go Radha Krishna Mandir, but Went to Park instead. 
+11:- I guess You choosed this number ` },
 
-{ id: 22, title: "12-17th December", paragraph: "We laughed like idiots over the dumbest meme." },
+{ id: 22, title: "12th & 17th December", paragraph: `We finally Went to Radha Krishna Mandir.
+12:- 1st time Sath me Mess me khaye the. 
+17:- I wrote something...... Then Below Partner I wrote (A) and Obviously By (A) I mean Aayush, Haaiii na 😏`},
 
 { id: 23, title: "13th December", paragraph: "It was small. But it felt like care." },
 
