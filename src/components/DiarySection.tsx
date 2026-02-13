@@ -44,7 +44,7 @@ const DiarySection = () => {
                   <img
                     src={entry.imageUrl}
                     alt={entry.title}
-                    className="h-full w-full object-cover"
+                    className="w-full h-48 object-cover rounded-lg transition-transform duration-700 hover:scale-105"
                     loading="lazy"
                   />
                 ) : (
