@@ -7,10 +7,12 @@ export interface Memory {
 }
 
 export const memories: Memory[] = [
-  { id: 1, title: "The Day We Met", paragraph: "A chance encounter that changed everything. The universe conspired to bring us together in the most unexpected way." },
-  { id: 2, title: "First Conversation", paragraph: "Hours felt like minutes. Words flowed like a river we never wanted to stop. We talked until the stars appeared." },
-  { id: 3, title: "The First Laugh", paragraph: "Your laugh echoed in my chest and settled somewhere permanent. I knew then — this was different." },
-  { id: 4, title: "Late Night Calls", paragraph: "Time zones couldn't stop us. Every midnight whisper built a bridge across the distance between us." },
+  { id: 1, title: "26th July:- The Day We First Talked", paragraph: "A chance encounter that changed everything. The universe conspired to bring us together in the most unexpected way." },
+  { id: 2, title: "30th July:- First Conversation", paragraph: "You asked, "Wo tumhi na the jo App ka puch rahe the" Sentence the Melted my ego. We then talked regarding the app fees back until the teacher Came." },
+  { id: 3, title: "13th August:- First Walk", paragraph: "I was extremely nervous, I waited you arrived, I asked you agreed,By the way Do you remember when Maharashtra was formed 🤔??
+Then We talked outside, At corners, and Don't know how but started walking together." },
+  { id: 4, title: "14th August:- First Temple Visit and Eating together.
+Day that I still think was Dream (Or Dream come true?)", paragraph: "Time zones couldn't stop us. Every midnight whisper built a bridge across the distance between us." },
   { id: 5, title: "First 'I Miss You'", paragraph: "Three words heavier than any ocean between us. They carried more truth than a thousand promises." },
   { id: 6, title: "Sending Letters", paragraph: "In a digital world, your handwriting on paper felt like holding a piece of your soul." },
   { id: 7, title: "Watching Sunsets Together", paragraph: "Different skies, same sun. We'd watch it set on video call, pretending the distance didn't exist." },
