@@ -20,10 +20,30 @@ paragraph: "The Day that I still think was a Dream (Or Dream come true) Wase 2.5
   { id: 10, title: "10th October", paragraph: "Still Calling it A LUCKY Day. When I stood on my quote. 'If you don't like your destiny don't accept it, Instead have the courage to change it the way you want it to be'." },
   { id: 11, title: "11th October", paragraph: "Someone Said Party in the class, Someone Ordered for the party, and see that 2 someone, became Everyone of eachother. And The 1st photo of us together 😅." },
   { id: 12, title: "14th October:-A GoodBye", paragraph: "Uss din 8:30 tk tumhe kisis ne khane ke liye call nahi kiye, You were free but Mera toh literally train choot raha tha. " },
-  { id: 13, title: "30th October Our 1st call, 31th October Your 1st Message", paragraph: "Some days the distance felt impossible. But we held on — because letting go was never an option." },
-  { id: 14, title: "21st November:- Surprise Deliveries", paragraph: "A package at the door with your scent, your words, your love. Distance couldn't stop your warmth from reaching me." },
-  { id: 15, title: "30th November", paragraph: "We celebrated with screens between us, but the love was more real than anything physical could ever be." },
-  { id: 16, title: "", paragraph: "We drew our future on napkins and whispered it into late nights — a home, a life, together at last." },
-  { id: 17, title: "16th December", paragraph: "Not a ring, not a ceremony — just a quiet promise in the dark: 'I will find my way to you.'" },
-  { id: 18, title: "18th December", paragraph: "This isn't the end of our story. It's the beginning of the chapter we write side by side." },
+  { id: 13, title: "During Diwali break", paragraph: "Some days the distance felt impossible. But we held on — because letting go was never an option." },
+  { id: 14, title: "30th October:- Our 1st call ", paragraph: "A package at the door with your scent, your words, your love. Distance couldn't stop your warmth from reaching me." },
+  { id: 15, title: "31st October:- Your 1st message", paragraph: "We celebrated with screens between us, but the love was more real than anything physical could ever be." },
+  { id: 16, title: "November 1-20", paragraph: "We drew our future on napkins and whispered it into late nights — a home, a life, together at last." },
+  { id: 17, title: "21st November", paragraph: "Not a ring, not a ceremony — just a quiet promise in the dark: 'I will find my way to you.'" },
+  { id: 18, title: "30th November", paragraph: "This isn't the end of our story. It's the beginning of the chapter we write side by side." },
+
+{ id: 19, title: "1st December", paragraph: "We laughed at something no one else would understand." },
+
+{ id: 20, title: "3st December", paragraph: "We said goodnight at 1 AM. Ended at 4:12 AM." },
+
+{ id: 21, title: "10-11th December", paragraph: "We were stubborn. But we didn’t leave." },
+
+{ id: 22, title: "12-17th December", paragraph: "We laughed like idiots over the dumbest meme." },
+
+{ id: 23, title: "13th December", paragraph: "It was small. But it felt like care." },
+
+{ id: 24, title: "14th December", paragraph: "We didn’t talk much. Just stayed connected." },
+
+{ id: 25, title: "16th December", paragraph: "It slipped out naturally. And meant everything." },
+
+{ id: 26, title: "18th December", paragraph: "You said something simple. I replayed it all day." },
+
+{ id: 27, title: "19th December", paragraph: "We didn’t know the future. But we chose each other." },
+
+{ id: 28, title: "20th December", paragraph: "Every single day." }
 ];
