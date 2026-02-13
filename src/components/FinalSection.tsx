@@ -43,7 +43,7 @@ const FinalSection = () => {
       <div className="relative z-10 mt-12 text-sm tracking-widest text-foreground/20">
 
 <p className="mt-10 text-xl font-medium tracking-wide text-primary">
-  Until then — I choose you.
+  Until then — I Love You Aditi.
 </p>
 
         ♥
