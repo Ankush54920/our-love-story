@@ -62,7 +62,7 @@ All that Fun, Late night RUN 🏃‍♂️🤝🏃‍♀️
 Fir to save my Bladder Run 🏃‍♂️🏃‍♂️💨` },
 
 { id: 27, title: "19th December", paragraph: `A full Day With MY Bandi.
-Scooty Ride,Ganesh ji temple, Kachori,Mr Bean,And then Those Moments 🤌.  },
+Scooty Ride,Ganesh ji temple, Kachori,Mr Bean,And then Those Moments 🤌. `},
 
 { id: 28, title: "20th December:-It was never easy to leave", paragraph: `Morning Walk, Chai,Park,Mandir,30 nov ko apni friend ko jhulaye the, 20 Dec ko Abhi Bandi ko. 
 Kala Dhaga, Necklace, Basketball court, and then a good bye.
