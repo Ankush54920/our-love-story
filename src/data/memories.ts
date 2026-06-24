@@ -8,7 +8,7 @@ export interface Memory {
 
 export const memories: Memory[] = [
 { id: 1, title: "Ooye Kasi ho? Kash tum ye dekh lo.Aur agar ye soch rahi ho ki jawab kase dogi toh don't worry,But Remember kuch bhi ho I am still with you, Aur humesa rahayenge chahe kuch bhi ku na ho. 
-Agar dekh li ho toh,Kabhi bhi bus Chat GPT ka Chat History dekh lena, abhi nhi Abpne Birthday ke baad.  " },
+Agar dekh li ho toh,Kabhi bhi bus Chat GPT ka Chat History dekh lena, abhi nhi Abpne Birthday ke baad." },
   { id: 2, title: "26th July:- The Day We First Talked", paragraph: "A chance encounter that changed everything. The universe conspired to bring us together in the most unexpected way." },
   { id: 3, title: "30th July:- First Conversation", paragraph: "You asked, 'Wo tumhi the na jo App ka puch rahe the' Sentence that changed the future. We then talked regarding the app feedback until the teacher Appeared." },
   { id: 4, title: "13th August:- First Walk", paragraph: "I was extremely nervous. I waited until you arrived. I asked. You agreed. And somehow… we started walking together,By the way Do you remember when Maharashtra was formed 🤔??"},
